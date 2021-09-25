@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: "Manaswini Nagaraj"
+date: "21 October 2019"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+df<-read.csv("C:/Users/Manaswini/Desktop/Project/globalterrorismdb_0718dist.csv")
+options(scipen='999')
+as_tibble(df)
+```
